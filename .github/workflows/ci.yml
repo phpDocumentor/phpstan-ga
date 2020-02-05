@@ -21,8 +21,3 @@ jobs:
           name: phpdoc/phpstan-ga
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-
-      - name: self-run
-        uses: ./
-        with:
-          args: "-i"
