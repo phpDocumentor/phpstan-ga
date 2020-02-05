@@ -1,0 +1,22 @@
+on:
+  push:
+    branch:
+      - master
+  release:
+name: ci
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Build
+        uses: elgohr/Publish-Docker-Github-Action@master
+        with:
+          name: phpdoc/phpstan-ga
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: self-run
+        uses: ./
+        with:
+          args: "-i"

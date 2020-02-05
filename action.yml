@@ -1,0 +1,8 @@
+name: "phpstan-action"
+description: "phpDocumentor phpstan action"
+branding:
+  color: green
+  icon: crosshair
+runs:
+  using: docker
+  image: docker://phpdoc/phpstan-ga:latest
