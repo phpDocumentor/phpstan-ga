@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "468063b8e0df3fec0d4ba7c0c19cf858",
+    "content-hash": "18330a137b07c53df1f1b6b0aab0aaf9",
     "packages": [
         {
             "name": "phpstan/phpstan",
@@ -209,16 +209,16 @@
         },
         {
             "name": "phpstan/phpstan-webmozart-assert",
-            "version": "0.12.2",
+            "version": "0.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-webmozart-assert.git",
-                "reference": "c3c84ec4e6874516c207401a154843b0b1418e2c"
+                "reference": "27d5ff48754463f5e9443f351722d0b955f6a27d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-webmozart-assert/zipball/c3c84ec4e6874516c207401a154843b0b1418e2c",
-                "reference": "c3c84ec4e6874516c207401a154843b0b1418e2c",
+                "url": "https://api.github.com/repos/phpstan/phpstan-webmozart-assert/zipball/27d5ff48754463f5e9443f351722d0b955f6a27d",
+                "reference": "27d5ff48754463f5e9443f351722d0b955f6a27d",
                 "shasum": ""
             },
             "require": {
@@ -258,7 +258,7 @@
                 "MIT"
             ],
             "description": "PHPStan webmozart/assert extension",
-            "time": "2020-01-20T12:26:56+00:00"
+            "time": "2020-03-31T15:28:20+00:00"
         }
     ],
     "packages-dev": [],
