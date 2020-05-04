@@ -7,7 +7,7 @@
         "phpstan/phpstan": "0.12.22",
         "phpstan/phpstan-phpunit": "0.12.8",
         "phpstan/phpstan-mockery": "^0.12.3",
-        "phpstan/phpstan-webmozart-assert": "0.12.3",
+        "phpstan/phpstan-webmozart-assert": "0.12.4",
         "phpstan/phpstan-php-parser": "^0.12.1"
     }
 }
