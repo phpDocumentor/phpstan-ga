@@ -100,16 +100,16 @@
         },
         {
             "name": "phpstan/phpstan-mockery",
-            "version": "0.12.3",
+            "version": "0.12.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-mockery.git",
-                "reference": "c2cdbe2dc06dbd03d090c2036f1355f43f5286a4"
+                "reference": "120ee84706acc93232b4ee08ec57fb5cdb877f4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-mockery/zipball/c2cdbe2dc06dbd03d090c2036f1355f43f5286a4",
-                "reference": "c2cdbe2dc06dbd03d090c2036f1355f43f5286a4",
+                "url": "https://api.github.com/repos/phpstan/phpstan-mockery/zipball/120ee84706acc93232b4ee08ec57fb5cdb877f4b",
+                "reference": "120ee84706acc93232b4ee08ec57fb5cdb877f4b",
                 "shasum": ""
             },
             "require": {
@@ -150,7 +150,7 @@
                 "MIT"
             ],
             "description": "PHPStan Mockery extension",
-            "time": "2020-01-10T12:08:26+00:00"
+            "time": "2020-04-23T13:49:42+00:00"
         },
         {
             "name": "phpstan/phpstan-php-parser",
@@ -322,5 +322,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
