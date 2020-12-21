@@ -118,32 +118,28 @@
         },
         {
             "name": "phpstan/phpstan-php-parser",
-            "version": "0.12.2",
+            "version": "0.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-php-parser.git",
-                "reference": "0b27eec1e92d48fa82199844dec119b1b22baba0"
+                "reference": "e140bc57f3bd5e8a4d45155556618a43736592e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-php-parser/zipball/0b27eec1e92d48fa82199844dec119b1b22baba0",
-                "reference": "0b27eec1e92d48fa82199844dec119b1b22baba0",
+                "url": "https://api.github.com/repos/phpstan/phpstan-php-parser/zipball/e140bc57f3bd5e8a4d45155556618a43736592e9",
+                "reference": "e140bc57f3bd5e8a4d45155556618a43736592e9",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1 || ^8.0",
-                "phpstan/phpstan": "^0.12"
+                "phpstan/phpstan": "^0.12.60"
             },
             "require-dev": {
-                "consistence/coding-standard": "^3.0.1",
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
-                "ergebnis/composer-normalize": "^2.0.2",
-                "jakub-onderka/php-parallel-lint": "^1.0",
-                "phing/phing": "^2.16.0",
-                "phpstan/phpstan-phpunit": "^0.12",
-                "phpstan/phpstan-strict-rules": "^0.12",
-                "phpunit/phpunit": "^7.0",
-                "slevomat/coding-standard": "^4.5.2"
+                "phing/phing": "^2.16.3",
+                "php-parallel-lint/php-parallel-lint": "^1.2",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "phpstan/phpstan-strict-rules": "^0.12.6",
+                "phpunit/phpunit": "^7.5.20"
             },
             "type": "phpstan-extension",
             "extra": {
@@ -166,7 +162,7 @@
                 "MIT"
             ],
             "description": "PHP-Parser extensions for PHPStan",
-            "time": "2020-07-21T14:50:29+00:00"
+            "time": "2020-12-12T21:05:25+00:00"
         },
         {
             "name": "phpstan/phpstan-phpunit",
