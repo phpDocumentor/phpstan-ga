@@ -4,6 +4,7 @@ ENV PATH /composer/vendor/bin:$PATH
 ENV PHP_CONF_DIR=/usr/local/etc/php/conf.d
 
 RUN apk --update --progress --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.9/community add \
+    icu-dev \
     php7-intl \
     php7-xsl \
     && rm -rf /var/cache/apk/* /var/tmp/* /tmp/* \
