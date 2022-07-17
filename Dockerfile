@@ -3,7 +3,7 @@ FROM php:7.4-cli-alpine
 ENV PATH /composer/vendor/bin:$PATH
 ENV PHP_CONF_DIR=/usr/local/etc/php/conf.d
 
-RUN apk --update --progress --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.9/community add \
+RUN apk --update --progress --no-cache add \
     icu-dev \
     icu-libs \
     icu \
