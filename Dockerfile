@@ -7,10 +7,9 @@ RUN apk --update --progress --no-cache add \
     icu-dev \
     icu-libs \
     icu \
-    php7-intl \
-    php7-xsl \
     && rm -rf /var/cache/apk/* /var/tmp/* /tmp/* \
-    && echo "memory_limit=-1" > $PHP_CONF_DIR/99_memory-limit.ini
+    && echo "memory_limit=-1" > $PHP_CONF_DIR/99_memory-limit.ini \
+    && docker-php-ext-install -j$(nproc) intl
 
 ADD vendor /composer/vendor
 
