@@ -4,10 +4,12 @@
     "type": "metapackage",
     "license": "MIT",
     "require": {
-        "phpstan/phpstan": "^0.12.3",
-        "phpstan/phpstan-phpunit": "^0.12.5",
-        "phpstan/phpstan-mockery": "^0.12.3",
-        "phpstan/phpstan-webmozart-assert": "^0.12.1",
-        "phpstan/phpstan-php-parser": "^0.12.1"
+        "phpstan/phpstan": "^1.4.0",
+        "phpstan/phpstan-phpunit": "^1.1.0",
+        "phpstan/phpstan-mockery": "^1.1.0",
+        "phpstan/phpstan-webmozart-assert": "^1.2.0",
+        "phpstan/phpstan-php-parser": "^1.1.0",
+	"phpstan/phpstan-symfony": "^1.2.0",
+        "jangregor/phpstan-prophecy": "^1.0"
     }
 }
