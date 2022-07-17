@@ -5,6 +5,7 @@ ENV PHP_CONF_DIR=/usr/local/etc/php/conf.d
 
 RUN apk --update --progress --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.9/community add \
     icu-dev \
+    icu-libs \
     icu \
     php7-intl \
     php7-xsl \
