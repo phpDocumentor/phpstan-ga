@@ -5,4 +5,4 @@ branding:
   icon: crosshair
 runs:
   using: docker
-  image: docker://phpdoc/phpstan-ga:latest
+  image: docker://phpdoc/phpstan-ga:1.8
